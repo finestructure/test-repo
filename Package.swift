@@ -4,7 +4,7 @@
 import PackageDescription
 import Foundation
 
-fatalError("Foo: \(ProcessInfo.processInfo.environment["GITHUB_TOKEN"]!)")
+print("Foo: \(ProcessInfo.processInfo.environment["GITHUB_TOKEN"]!)")
 
 let package = Package(
     name: "test-repo",
